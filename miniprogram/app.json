@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "CODEBOOK",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "usingComponents": {
+    "van-button": "@vant/button/index",
+    "van-search": "@vant/search/index",
+    "van-transition": "@vant/transition/index",
+    "van-icon": "@vant/icon/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

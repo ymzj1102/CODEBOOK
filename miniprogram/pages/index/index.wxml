@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<cover-view class="container">
+<view class="code-title">密码本</view>
+<van-search
+  shape="round"
+  background="#88ada6"
+  placeholder="请输入搜索关键词"
+  class="code-search"
+/>
+<cover-view class="menu-list">
+  <view class="menu-item add">
+  <van-icon name="lock" class="menu-icon"/>
+  <text class="menu-text">添加密码</text>
+  </view>
+  <view class="menu-item all">
+  <van-icon name="card" class="menu-icon"/>
+  <text class="menu-text">查看密码</text>
+  </view>
+</cover-view>
+</cover-view>
+

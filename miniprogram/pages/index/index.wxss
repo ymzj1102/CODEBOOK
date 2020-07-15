@@ -1,0 +1,47 @@
+/**index.wxss**/
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #88ada6;
+  box-sizing: border-box;
+}
+.code-title {
+  font-size: 46px;
+  margin-top: 20vh;
+  text-align: center;
+  font-weight: 600;
+  color: #4b5cc4;
+}
+.code-search {
+  width: 90%;
+  margin: 10vh auto 5vh;
+}
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu-item {
+  width: 250rpx;
+  height: 250rpx;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add {
+  background-color: #ffb3a7;
+}
+.all {
+  background-color: #a78e44;
+}
+.menu-icon {
+  font-size: 42px;
+}
+.menu-text {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+}

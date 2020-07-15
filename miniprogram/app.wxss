@@ -1,0 +1,11 @@
+/**app.wxss**/
+@import '@vant/common/index.wxss';
+page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #88ada6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+  Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei',
+  sans-serif;
+}
